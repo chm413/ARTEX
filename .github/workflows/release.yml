@@ -4,7 +4,7 @@ on:
     tags: ["v*"]
 
 permissions:
-  contents: write # 创建 Release 需要
+  contents: write # 创建 Release 需要1
 
 jobs:
   # ① 前端静态导出（一次），产物给交叉编译各平台复用
